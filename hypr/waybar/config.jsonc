@@ -1,0 +1,28 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["custom/displays"],
+  "modules-center": ["clock"],
+  "modules-right": ["battery"],
+
+  "custom/displays": {
+    "exec": "~/.config/hypr/waybar/scripts/displays.sh",
+    "interval": 1,
+    "markup": "pango",
+    "tooltip": false
+  },
+
+  "clock": {
+    "format": "<span foreground='#FFFFFF'><b>{:L%R}</b></span>",
+    "tooltip-format": "{:L%a,%Y.%m.%d}",
+    "markup": "pango",
+    "tooltip-markup": "pango"
+  },
+
+  "battery": {
+    "format": "<span foreground='#FFFFFF'><b>{capacity}%</b></span>",
+    "markup": "pango",
+    "interval": 30,
+    "tooltip": false
+  }
+}

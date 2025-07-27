@@ -1,0 +1,33 @@
+* {
+    font-family: JetBrainsMono Nerd Font, monospace;
+    font-size: 13px;
+    color: white;
+    background: transparent;
+}
+
+window#waybar {
+    border: none;
+    background: linear-gradient(0deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.6) 100%);
+}
+
+tooltip {
+    background-color: rgba(49,50,68,0.8);
+}
+
+#custom-displays, #battery, #clock {
+    padding: 0 10px;
+}
+
+
+#custom-displays {
+  font-family: monospace;
+  padding: 0 8px;
+  color: #888888;
+}
+
+
+#battery {
+    font-family: monospace;
+    color: #dddddd;
+    padding: 0 8px;
+}
