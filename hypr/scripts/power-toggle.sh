@@ -7,6 +7,7 @@ qt_file="$HOME/.config/qt5ct/qt5ct.conf"
 
 if [[ "$current_mode" == "AC" ]]; then
   cp ~/.config/hypr/hyprland.leistung.conf ~/.config/hypr/hyprland.conf
+  cp ~/.config/hypr/hyprlock.leistung.conf ~/.config/hypr/hyprlock.conf
 
   sed -i 's/^gtk-enable-animations=.*/gtk-enable-animations=true/' "$gtk3_file" 2>/dev/null || true
   sed -i 's/^gtk-enable-animations=.*/gtk-enable-animations=true/' "$gtk4_file" 2>/dev/null || true
@@ -20,6 +21,7 @@ if [[ "$current_mode" == "AC" ]]; then
 
 else
   cp ~/.config/hypr/hyprland.eco.conf ~/.config/hypr/hyprland.conf
+  cp ~/.config/hypr/hyprlock.eco.conf ~/.config/hypr/hyprlock.conf
 
   sed -i 's/^gtk-enable-animations=.*/gtk-enable-animations=false/' "$gtk3_file" 2>/dev/null || true
   sed -i 's/^gtk-enable-animations=.*/gtk-enable-animations=false/' "$gtk4_file" 2>/dev/null || true
