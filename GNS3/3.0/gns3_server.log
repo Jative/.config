@@ -1,109 +1,208 @@
-2025-07-24 19:27:07 WARNING config.py:250 No configuration file could be found or read
-2025-07-24 19:27:07 INFO server.py:234 GNS3 server version 3.0.5
-2025-07-24 19:27:07 INFO server.py:236 Copyright (c) 2007-2025 GNS3 Technologies Inc.
-2025-07-24 19:27:07 WARNING server.py:247 Compute authentication is enabled with username 'gns3' and a randomly generated password. Please set a password in the config file if this compute is to be used by an external controller
-2025-07-24 19:27:07 INFO server.py:257 Running with Python 3.13.5 and has PID 256875
-2025-07-24 19:27:07 INFO server.py:87 Current locale is de_DE.UTF-8
-2025-07-24 19:27:07 INFO server.py:275 Using system certificate store for SSL connections
-2025-07-24 19:27:08 INFO server.py:288 Starting server on 0.0.0.0:3080
-2025-07-24 19:27:09 INFO server.py:83 Started server process [256875]
-2025-07-24 19:27:09 INFO on.py:48 Waiting for application startup.
-2025-07-24 19:27:09 INFO migration.py:207 Context impl SQLiteImpl.
-2025-07-24 19:27:09 INFO migration.py:210 Will assume non-transactional DDL.
-2025-07-24 19:27:09 INFO tasks.py:88 Current database revision is None
-2025-07-24 19:27:09 INFO migration.py:207 Context impl SQLiteImpl.
-2025-07-24 19:27:09 INFO migration.py:210 Will assume non-transactional DDL.
-2025-07-24 19:27:09 INFO migration.py:618 Running stamp_revision  -> 9a5292aa4389
-2025-07-24 19:27:09 INFO __init__.py:71 Loading controller vars file "/home/jative/.config/GNS3/3.0/gns3_controller.vars"
-2025-07-24 19:27:09 INFO __init__.py:75 Controller is starting
-2025-07-24 19:27:09 INFO __init__.py:355 Installing base configs in '/home/jative/GNS3/configs'
-2025-07-24 19:27:09 INFO __init__.py:382 Installing custom symbols in '/home/jative/GNS3/symbols'
-2025-07-24 19:27:09 INFO __init__.py:369 Installing built-in disks in '/home/jative/GNS3/images/QEMU'
-2025-07-24 19:27:09 INFO __init__.py:273 IOU license check is disabled on the controller
-2025-07-24 19:27:09 INFO __init__.py:278 Comparing controller version 3.0.5 with config version 3.0.5
-2025-07-24 19:27:09 INFO __init__.py:286 Built-in appliances are installed in '/home/jative/.local/share/GNS3/appliances'
-2025-07-24 19:27:10 INFO compute.py:74 Create compute local
-2025-07-24 19:27:10 INFO on.py:62 Application startup complete.
-2025-07-24 19:27:10 INFO server.py:215 Uvicorn running on http://0.0.0.0:3080 (Press CTRL+C to quit)
-2025-07-24 19:27:10 ERROR authentication.py:58 A JWT secret key must be configured to secure the server, using an unsecured default key!
-2025-07-24 19:27:10 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
-2025-07-24 19:27:10 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
-2025-07-24 19:27:10 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
-2025-07-24 19:27:10 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
-2025-07-24 19:27:11 INFO compute.py:375 Connecting to compute 'local'
-2025-07-24 19:27:11 INFO websockets_impl.py:273 127.0.0.1:60838 - "WebSocket /v3/compute/notifications/ws" [accepted]
-2025-07-24 19:27:11 INFO notifications.py:43 New client 127.0.0.1:60838 has connected to compute WebSocket
-2025-07-24 19:27:11 INFO server.py:643 connection open
-2025-07-24 19:27:11 INFO compute.py:447 Connected to compute 'local' WebSocket 'http://127.0.0.1:3080/v3/compute/notifications/ws'
-2025-07-24 19:27:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
-2025-07-24 19:27:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
-2025-07-24 19:27:14 INFO websockets_impl.py:273 127.0.0.1:60858 - "WebSocket /v3/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc1MzQ1MzYzMH0.xKy4Olv3J8r2hCKy5FcvGyKYf3wG30RoKGmHxWEAm2M" [accepted]
-2025-07-24 19:27:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
-2025-07-24 19:27:14 INFO project.py:78 Project 22a2dafa-b2a1-4169-a188-fdf33ec03447 with path '/home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447' created
-2025-07-24 19:27:14 INFO server.py:643 connection open
-2025-07-24 19:27:14 INFO controller.py:214 New client 127.0.0.1:60858 has connected to controller WebSocket
-2025-07-24 19:27:14 INFO base_node.py:323 VPCS: PC1 [bbac96bb-4d83-41b4-92cb-b47a07a47157] created
-2025-07-24 19:27:14 INFO base_node.py:323 VPCS: PC2 [0f7fb9da-d7a0-4548-8b34-f1ca23fc97c8] created
-2025-07-24 19:27:14 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:40461 with working directory /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/dynamips
-2025-07-24 19:27:14 INFO hypervisor.py:123 Starting Dynamips: ['/usr/bin/dynamips', '-N1', '-l', 'dynamips_i1_log.txt', '-H', '127.0.0.1:40461', '--console-binding-addr', '0.0.0.0']
-2025-07-24 19:27:14 INFO hypervisor.py:125 Dynamips process logging to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/dynamips/dynamips_i1_stdout.txt
-2025-07-24 19:27:14 INFO hypervisor.py:130 Dynamips process started PID=257215
-2025-07-24 19:27:14 INFO __init__.py:338 Hypervisor 127.0.0.1:40461 has successfully started
-2025-07-24 19:27:14 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:40461 after 0.3613 seconds
-2025-07-24 19:27:14 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
-2025-07-24 19:27:14 INFO ethernet_switch.py:192 Ethernet switch "Switch1" [d84b98e3-d51e-444c-b0bf-6c2f391c399e] has been created
-2025-07-24 19:27:14 INFO vpcs_vm.py:393 VPCS "PC1" [bbac96bb-4d83-41b4-92cb-b47a07a47157]: NIO UDP added to port 0
-2025-07-24 19:27:14 INFO ethernet_switch.py:285 Ethernet switch "Switch1" [d84b98e3-d51e-444c-b0bf-6c2f391c399e]: NIO udp-9d384b61-624d-4ee9-bae2-6d56d6678e9f bound to port 0
-2025-07-24 19:27:14 INFO ethernet_switch.py:377 Ethernet switch "Switch1" [d84b98e3-d51e-444c-b0bf-6c2f391c399e]: port 0 set as an access port in VLAN 1
-2025-07-24 19:27:14 INFO ethernet_switch.py:285 Ethernet switch "Switch1" [d84b98e3-d51e-444c-b0bf-6c2f391c399e]: NIO udp-a05460da-d8c2-42ea-884d-1ba3eb494002 bound to port 1
-2025-07-24 19:27:14 INFO ethernet_switch.py:377 Ethernet switch "Switch1" [d84b98e3-d51e-444c-b0bf-6c2f391c399e]: port 1 set as an access port in VLAN 1
-2025-07-24 19:27:14 INFO vpcs_vm.py:393 VPCS "PC2" [0f7fb9da-d7a0-4548-8b34-f1ca23fc97c8]: NIO UDP added to port 0
-2025-07-24 19:27:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
-2025-07-24 19:27:14 INFO websockets_impl.py:273 127.0.0.1:60964 - "WebSocket /v3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc1MzQ1MzYzMH0.xKy4Olv3J8r2hCKy5FcvGyKYf3wG30RoKGmHxWEAm2M" [accepted]
-2025-07-24 19:27:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
-2025-07-24 19:27:14 INFO server.py:643 connection open
-2025-07-24 19:27:14 INFO projects.py:297 New client has connected to the notification stream for project ID '22a2dafa-b2a1-4169-a188-fdf33ec03447' (WebSocket method)
-2025-07-24 19:27:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
-2025-07-24 19:27:14 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
-2025-07-24 19:27:15 INFO images.py:163 Discovering images in '/home/jative/GNS3/images/QEMU'
-2025-07-24 19:27:15 INFO images.py:163 Discovering images in '/home/jative/GNS3/images/IOS'
-2025-07-24 19:27:15 INFO images.py:163 Discovering images in '/home/jative/GNS3/images/IOU'
-2025-07-24 19:27:15 INFO tasks.py:231 Monitoring for new images in '/home/jative/GNS3/images'
-2025-07-24 19:27:16 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
-2025-07-24 19:27:16 INFO base_node.py:942 VPCS: 'PC1' [bbac96bb-4d83-41b4-92cb-b47a07a47157]:local UDP tunnel created between port 10004 and 10005
-2025-07-24 19:27:16 INFO vpcs_vm.py:230 Starting VPCS: ['/usr/bin/vpcs', '-p', '5001', '-m', '0', '-i', '1', '-F', '-R', '-s', '10004', '-c', '10005', '-t', '127.0.0.1', 'startup.vpc']
-2025-07-24 19:27:16 INFO vpcs_vm.py:232 Logging to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/vpcs/bbac96bb-4d83-41b4-92cb-b47a07a47157/vpcs.log
-2025-07-24 19:27:17 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:35667
-2025-07-24 19:27:17 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:35667']
-2025-07-24 19:27:17 INFO hypervisor.py:165 logging to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/vpcs/bbac96bb-4d83-41b4-92cb-b47a07a47157/ubridge.log
-2025-07-24 19:27:17 INFO hypervisor.py:171 ubridge started PID=257294
-2025-07-24 19:27:17 INFO base_node.py:788 Hypervisor 0.0.0.0:35667 has successfully started
-2025-07-24 19:27:17 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:35667 after 0.1008 seconds
-2025-07-24 19:27:17 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5001, external port = 5000)
-2025-07-24 19:27:17 INFO vpcs_vm.py:249 VPCS instance PC1 started PID=257288
-2025-07-24 19:29:33 INFO server.py:264 connection closed
-2025-07-24 19:29:33 INFO server.py:264 connection closed
-2025-07-24 19:29:37 INFO projects.py:304 Client has disconnected from notification stream for project ID '22a2dafa-b2a1-4169-a188-fdf33ec03447' (WebSocket method)
-2025-07-24 19:29:37 INFO controller.py:221 Client 127.0.0.1:60858 has disconnected from controller WebSocket
-2025-07-24 19:29:42 INFO projects.py:313 Project '22a2dafa-b2a1-4169-a188-fdf33ec03447' is automatically closing due to no client listening
-2025-07-24 19:29:42 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:35667
-2025-07-24 19:29:42 INFO hypervisor.py:200 Stopping uBridge process PID=257294
-2025-07-24 19:29:42 INFO vpcs_vm.py:314 Stopping VPCS instance PC1 PID=257288
-2025-07-24 19:29:42 INFO vpcs_vm.py:265 VPCS process has stopped, return code: 0
-2025-07-24 19:29:42 INFO base_node.py:370 VPCS: 'PC2' [0f7fb9da-d7a0-4548-8b34-f1ca23fc97c8]: is closing
-2025-07-24 19:29:42 INFO base_node.py:370 VPCS: 'PC1' [bbac96bb-4d83-41b4-92cb-b47a07a47157]: is closing
-2025-07-24 19:29:42 INFO ethernet_switch.py:262 Ethernet switch "Switch1" [d84b98e3-d51e-444c-b0bf-6c2f391c399e] has been deleted
-2025-07-24 19:29:42 INFO hypervisor.py:142 Stopping Dynamips process PID=257215
-2025-07-24 19:29:43 INFO project.py:352 Project 22a2dafa-b2a1-4169-a188-fdf33ec03447 with path '/home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447' closed
-2025-07-24 19:29:44 INFO server.py:263 Shutting down
-2025-07-24 19:29:44 INFO compute.py:479 Connection closed to compute 'local' WebSocket 'http://127.0.0.1:3080/v3/compute/notifications/ws'
-2025-07-24 19:29:44 INFO server.py:264 connection closed
-2025-07-24 19:29:44 INFO server.py:305 Waiting for background tasks to complete. (CTRL+C to force quit)
-2025-07-24 19:29:45 INFO tasks.py:238 Stopping monitoring for new images in '/home/jative/GNS3/images'
-2025-07-24 19:29:47 INFO notifications.py:50 Client 127.0.0.1:60838 has disconnected from compute WebSocket
-2025-07-24 19:29:47 INFO on.py:67 Waiting for application shutdown.
-2025-07-24 19:29:47 INFO __init__.py:181 Controller is stopping
-2025-07-24 19:29:47 INFO tasks.py:106 Disconnected from database
-2025-07-24 19:29:47 INFO on.py:76 Application shutdown complete.
-2025-07-24 19:29:47 INFO server.py:93 Finished server process [256875]
-2025-07-24 19:29:47 INFO server.py:329 Remove PID file /home/jative/.config/GNS3/3.0/gns3_server.pid
+2025-07-29 21:07:43 WARNING config.py:250 No configuration file could be found or read
+2025-07-29 21:07:43 INFO server.py:234 GNS3 server version 3.0.5
+2025-07-29 21:07:43 INFO server.py:236 Copyright (c) 2007-2025 GNS3 Technologies Inc.
+2025-07-29 21:07:43 WARNING server.py:247 Compute authentication is enabled with username 'gns3' and a randomly generated password. Please set a password in the config file if this compute is to be used by an external controller
+2025-07-29 21:07:43 INFO server.py:257 Running with Python 3.13.5 and has PID 973229
+2025-07-29 21:07:43 INFO server.py:87 Current locale is de_DE.UTF-8
+2025-07-29 21:07:43 INFO server.py:275 Using system certificate store for SSL connections
+2025-07-29 21:07:44 INFO server.py:288 Starting server on 0.0.0.0:3080
+2025-07-29 21:07:45 INFO server.py:83 Started server process [973229]
+2025-07-29 21:07:45 INFO on.py:48 Waiting for application startup.
+2025-07-29 21:07:45 INFO migration.py:207 Context impl SQLiteImpl.
+2025-07-29 21:07:45 INFO migration.py:210 Will assume non-transactional DDL.
+2025-07-29 21:07:45 INFO tasks.py:88 Current database revision is None
+2025-07-29 21:07:45 INFO migration.py:207 Context impl SQLiteImpl.
+2025-07-29 21:07:45 INFO migration.py:210 Will assume non-transactional DDL.
+2025-07-29 21:07:45 INFO migration.py:618 Running stamp_revision  -> 9a5292aa4389
+2025-07-29 21:07:45 INFO __init__.py:71 Loading controller vars file "/home/jative/.config/GNS3/3.0/gns3_controller.vars"
+2025-07-29 21:07:45 INFO __init__.py:75 Controller is starting
+2025-07-29 21:07:45 INFO __init__.py:355 Installing base configs in '/home/jative/GNS3/configs'
+2025-07-29 21:07:45 INFO __init__.py:382 Installing custom symbols in '/home/jative/GNS3/symbols'
+2025-07-29 21:07:45 INFO __init__.py:369 Installing built-in disks in '/home/jative/GNS3/images/QEMU'
+2025-07-29 21:07:45 INFO __init__.py:267 iourc file '/home/jative/.config/GNS3/3.0/iou_license' loaded
+2025-07-29 21:07:45 INFO __init__.py:273 IOU license check is disabled on the controller
+2025-07-29 21:07:45 INFO __init__.py:278 Comparing controller version 3.0.5 with config version 3.0.5
+2025-07-29 21:07:45 INFO __init__.py:286 Built-in appliances are installed in '/home/jative/.local/share/GNS3/appliances'
+2025-07-29 21:07:45 INFO compute.py:74 Create compute local
+2025-07-29 21:07:45 INFO on.py:62 Application startup complete.
+2025-07-29 21:07:45 INFO server.py:215 Uvicorn running on http://0.0.0.0:3080 (Press CTRL+C to quit)
+2025-07-29 21:07:45 ERROR authentication.py:58 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:07:45 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:07:45 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:07:45 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:07:45 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:07:46 INFO compute.py:375 Connecting to compute 'local'
+2025-07-29 21:07:46 INFO websockets_impl.py:273 127.0.0.1:48540 - "WebSocket /v3/compute/notifications/ws" [accepted]
+2025-07-29 21:07:46 INFO notifications.py:43 New client 127.0.0.1:48540 has connected to compute WebSocket
+2025-07-29 21:07:46 INFO server.py:643 connection open
+2025-07-29 21:07:46 INFO compute.py:447 Connected to compute 'local' WebSocket 'http://127.0.0.1:3080/v3/compute/notifications/ws'
+2025-07-29 21:07:48 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:07:48 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:07:48 INFO project.py:78 Project 22a2dafa-b2a1-4169-a188-fdf33ec03447 with path '/home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447' created
+2025-07-29 21:07:48 INFO websockets_impl.py:273 127.0.0.1:48566 - "WebSocket /v3/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc1Mzg5MTY2NX0.aZGeyM4bFp8fH1g6U_7b-1Fak9rY6uRSs3PKs0qANOc" [accepted]
+2025-07-29 21:07:48 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:07:48 INFO server.py:643 connection open
+2025-07-29 21:07:48 INFO controller.py:214 New client 127.0.0.1:48566 has connected to controller WebSocket
+2025-07-29 21:07:48 INFO qemu_vm.py:272 QEMU VM "vESR-1" [vESR-1] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-07-29 21:07:48 INFO qemu_vm.py:693 QEMU VM "vESR-1" [56aebe52-0fdf-467f-b408-92a08d38fc57]: MAC address changed to 0c:ae:be:52:00:00
+2025-07-29 21:07:48 INFO qemu_vm.py:637 QEMU VM "vESR-1" [56aebe52-0fdf-467f-b408-92a08d38fc57]: number of Ethernet adapters changed to 1
+2025-07-29 21:07:48 WARNING qemu_vm.py:180 Config disk: 'mtools' are not installed.
+2025-07-29 21:07:48 INFO qemu_vm.py:189 QEMU VM "vESR-1" [56aebe52-0fdf-467f-b408-92a08d38fc57] has been created
+2025-07-29 21:07:48 INFO base_node.py:323 Qemu: vESR-1 [56aebe52-0fdf-467f-b408-92a08d38fc57] created
+2025-07-29 21:07:48 INFO qemu_vm.py:313 QEMU VM "vESR-1" [56aebe52-0fdf-467f-b408-92a08d38fc57] has set the QEMU hda_disk_image path to /home/jative/GNS3/images/QEMU/vESR.qcow2
+2025-07-29 21:07:48 INFO qemu_vm.py:418 QEMU VM "vESR-1" [56aebe52-0fdf-467f-b408-92a08d38fc57] has set the QEMU hda disk interface to ide
+2025-07-29 21:07:48 INFO qemu_vm.py:839 QEMU VM "vESR-1" [56aebe52-0fdf-467f-b408-92a08d38fc57] has set the RAM to 2048
+2025-07-29 21:07:48 INFO qemu_vm.py:637 QEMU VM "vESR-1" [56aebe52-0fdf-467f-b408-92a08d38fc57]: number of Ethernet adapters changed to 4
+2025-07-29 21:07:48 INFO qemu_vm.py:814 QEMU VM "vESR-1" [56aebe52-0fdf-467f-b408-92a08d38fc57] has set the process priority to normal
+2025-07-29 21:07:48 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:07:48 INFO websockets_impl.py:273 127.0.0.1:48590 - "WebSocket /v3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc1Mzg5MTY2NX0.aZGeyM4bFp8fH1g6U_7b-1Fak9rY6uRSs3PKs0qANOc" [accepted]
+2025-07-29 21:07:48 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:07:48 INFO server.py:643 connection open
+2025-07-29 21:07:48 INFO projects.py:297 New client has connected to the notification stream for project ID '22a2dafa-b2a1-4169-a188-fdf33ec03447' (WebSocket method)
+2025-07-29 21:07:48 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:07:48 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:07:50 INFO images.py:163 Discovering images in '/home/jative/GNS3/images/QEMU'
+2025-07-29 21:07:50 INFO images.py:163 Discovering images in '/home/jative/GNS3/images/IOS'
+2025-07-29 21:07:50 INFO images.py:163 Discovering images in '/home/jative/GNS3/images/IOU'
+2025-07-29 21:07:50 INFO tasks.py:231 Monitoring for new images in '/home/jative/GNS3/images'
+2025-07-29 21:07:53 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:07:53 INFO qemu_vm.py:1975 logging to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/qemu/56aebe52-0fdf-467f-b408-92a08d38fc57/qemu-img.log
+2025-07-29 21:07:53 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/jative/GNS3/images/QEMU/vESR.qcow2
+2025-07-29 21:07:53 INFO base_node.py:942 Qemu: 'vESR-1' [56aebe52-0fdf-467f-b408-92a08d38fc57]:local UDP tunnel created between port 10000 and 10001
+2025-07-29 21:07:53 INFO base_node.py:942 Qemu: 'vESR-1' [56aebe52-0fdf-467f-b408-92a08d38fc57]:local UDP tunnel created between port 10002 and 10003
+2025-07-29 21:07:53 INFO base_node.py:942 Qemu: 'vESR-1' [56aebe52-0fdf-467f-b408-92a08d38fc57]:local UDP tunnel created between port 10004 and 10005
+2025-07-29 21:07:53 INFO base_node.py:942 Qemu: 'vESR-1' [56aebe52-0fdf-467f-b408-92a08d38fc57]:local UDP tunnel created between port 10006 and 10007
+2025-07-29 21:07:53 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name vESR-1 -m 2048M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/qemu/56aebe52-0fdf-467f-b408-92a08d38fc57/hda_disk.qcow2,if=ide,index=0,media=disk,id=drive0 -uuid 56aebe52-0fdf-467f-b408-92a08d38fc57 -serial telnet:127.0.0.1:5001,server,nowait -monitor tcp:127.0.0.1:34493,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device e1000,mac=0c:ae:be:52:00:00,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10001,localaddr=127.0.0.1:10000 -device e1000,mac=0c:ae:be:52:00:01,bus=pci-bridge1,addr=0x01,netdev=gns3-1 -netdev socket,id=gns3-1,udp=127.0.0.1:10003,localaddr=127.0.0.1:10002 -device e1000,mac=0c:ae:be:52:00:02,bus=pci-bridge1,addr=0x02,netdev=gns3-2 -netdev socket,id=gns3-2,udp=127.0.0.1:10005,localaddr=127.0.0.1:10004 -device e1000,mac=0c:ae:be:52:00:03,bus=pci-bridge1,addr=0x03,netdev=gns3-3 -netdev socket,id=gns3-3,udp=127.0.0.1:10007,localaddr=127.0.0.1:10006 -display none
+2025-07-29 21:07:53 INFO qemu_vm.py:1177 logging to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/qemu/56aebe52-0fdf-467f-b408-92a08d38fc57/qemu.log
+2025-07-29 21:07:53 INFO qemu_vm.py:1184 QEMU VM "vESR-1" started PID=973626
+2025-07-29 21:07:53 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:36035
+2025-07-29 21:07:53 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:36035']
+2025-07-29 21:07:53 INFO hypervisor.py:165 logging to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/qemu/56aebe52-0fdf-467f-b408-92a08d38fc57/ubridge.log
+2025-07-29 21:07:53 INFO hypervisor.py:171 ubridge started PID=973628
+2025-07-29 21:07:53 INFO base_node.py:788 Hypervisor 0.0.0.0:36035 has successfully started
+2025-07-29 21:07:53 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:36035 after 0.1007 seconds
+2025-07-29 21:07:53 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:34493 after 0.0104 seconds
+2025-07-29 21:07:53 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-0 off
+2025-07-29 21:07:53 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-1 off
+2025-07-29 21:07:53 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-2 off
+2025-07-29 21:07:53 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-3 off
+2025-07-29 21:07:53 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5001, external port = 5000)
+2025-07-29 21:08:04 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:08:04 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:08:59 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:08:59 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:10:07 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:10:07 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:10:18 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:10:18 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:36035
+2025-07-29 21:10:18 INFO hypervisor.py:200 Stopping uBridge process PID=973628
+2025-07-29 21:10:18 INFO qemu_vm.py:1273 Stopping QEMU VM "vESR-1" PID=973626
+2025-07-29 21:10:18 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-07-29 21:10:20 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:10:20 INFO base_node.py:370 Qemu: 'vESR-1' [56aebe52-0fdf-467f-b408-92a08d38fc57]: is closing
+2025-07-29 21:10:24 ERROR images.py:293 Can't write digest of /home/jative/GNS3/images/QEMU/vESR.qcow2: [Errno 2] No such file or directory: '/home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/qemu/56aebe52-0fdf-467f-b408-92a08d38fc57/vESR.qcow2.md5sum'
+2025-07-29 21:10:45 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:10:57 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:10:57 INFO project.py:552 Creating node from template "vESR" on compute "jative-pc (controller)" [local]
+2025-07-29 21:10:57 INFO qemu_vm.py:294 QEMU VM 'vESR-1' [4c7e6dd6-1a86-4e68-85d4-01e580e330e6] has set the platform x86_64
+2025-07-29 21:10:57 INFO qemu_vm.py:272 QEMU VM "vESR-1" [vESR-1] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-07-29 21:10:57 INFO qemu_vm.py:693 QEMU VM "vESR-1" [4c7e6dd6-1a86-4e68-85d4-01e580e330e6]: MAC address changed to 0c:7e:6d:d6:00:00
+2025-07-29 21:10:57 INFO qemu_vm.py:637 QEMU VM "vESR-1" [4c7e6dd6-1a86-4e68-85d4-01e580e330e6]: number of Ethernet adapters changed to 1
+2025-07-29 21:10:57 WARNING qemu_vm.py:180 Config disk: 'mtools' are not installed.
+2025-07-29 21:10:57 INFO qemu_vm.py:189 QEMU VM "vESR-1" [4c7e6dd6-1a86-4e68-85d4-01e580e330e6] has been created
+2025-07-29 21:10:57 INFO base_node.py:323 Qemu: vESR-1 [4c7e6dd6-1a86-4e68-85d4-01e580e330e6] created
+2025-07-29 21:10:57 INFO qemu_vm.py:313 QEMU VM "vESR-1" [4c7e6dd6-1a86-4e68-85d4-01e580e330e6] has set the QEMU hda_disk_image path to /home/jative/GNS3/images/QEMU/vESR.qcow2
+2025-07-29 21:10:57 INFO qemu_vm.py:418 QEMU VM "vESR-1" [4c7e6dd6-1a86-4e68-85d4-01e580e330e6] has set the QEMU hda disk interface to ide
+2025-07-29 21:10:57 INFO qemu_vm.py:839 QEMU VM "vESR-1" [4c7e6dd6-1a86-4e68-85d4-01e580e330e6] has set the RAM to 2048
+2025-07-29 21:10:57 INFO qemu_vm.py:637 QEMU VM "vESR-1" [4c7e6dd6-1a86-4e68-85d4-01e580e330e6]: number of Ethernet adapters changed to 4
+2025-07-29 21:10:57 INFO qemu_vm.py:814 QEMU VM "vESR-1" [4c7e6dd6-1a86-4e68-85d4-01e580e330e6] has set the process priority to normal
+2025-07-29 21:11:01 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:11:01 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:11:01 INFO project.py:552 Creating node from template "IOL L3" on compute "jative-pc (controller)" [local]
+2025-07-29 21:11:01 INFO qemu_vm.py:313 QEMU VM "vESR-1" [4c7e6dd6-1a86-4e68-85d4-01e580e330e6] has set the QEMU hda_disk_image path to /home/jative/GNS3/images/QEMU/vESR.qcow2
+2025-07-29 21:11:01 INFO iou_vm.py:79 IOU "IOU1" [7fd9aeb8-c916-44ac-977d-e2dfe028bc8f]: assigned with application ID 1
+2025-07-29 21:11:01 INFO iou_vm.py:955 IOU "IOU1" [7fd9aeb8-c916-44ac-977d-e2dfe028bc8f]: number of Ethernet adapters changed to 2
+2025-07-29 21:11:01 INFO iou_vm.py:985 IOU "IOU1" [7fd9aeb8-c916-44ac-977d-e2dfe028bc8f]: number of Serial adapters changed to 2
+2025-07-29 21:11:01 INFO iou_vm.py:325 IOU "IOU1" [7fd9aeb8-c916-44ac-977d-e2dfe028bc8f]: RAM updated from 256MB to 768MB
+2025-07-29 21:11:01 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:11:01 INFO iou_vm.py:153 IOU "IOU1" [7fd9aeb8-c916-44ac-977d-e2dfe028bc8f]: IOU image updated to "/home/jative/GNS3/images/IOU/x86_64_crb_linux-adventerprisek9-ms.iol"
+2025-07-29 21:11:03 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:11:03 INFO iou_vm.py:153 IOU "IOU1" [7fd9aeb8-c916-44ac-977d-e2dfe028bc8f]: IOU image updated to "/home/jative/GNS3/images/IOU/x86_64_crb_linux-adventerprisek9-ms.iol"
+2025-07-29 21:11:08 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:11:08 INFO iou_vm.py:1019 IOU "IOU1" [7fd9aeb8-c916-44ac-977d-e2dfe028bc8f]: NIO UDP added to 0/0
+2025-07-29 21:11:08 INFO qemu_vm.py:1562 QEMU VM "vESR-1" [4c7e6dd6-1a86-4e68-85d4-01e580e330e6]: NIO UDP added to adapter 0
+2025-07-29 21:11:08 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:11:09 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:11:11 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:11:11 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:44277
+2025-07-29 21:11:11 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:44277']
+2025-07-29 21:11:11 INFO hypervisor.py:165 logging to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/iou/7fd9aeb8-c916-44ac-977d-e2dfe028bc8f/ubridge.log
+2025-07-29 21:11:11 INFO hypervisor.py:171 ubridge started PID=981014
+2025-07-29 21:11:11 INFO base_node.py:788 Hypervisor 0.0.0.0:44277 has successfully started
+2025-07-29 21:11:11 INFO qemu_vm.py:1975 logging to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/qemu/4c7e6dd6-1a86-4e68-85d4-01e580e330e6/qemu-img.log
+2025-07-29 21:11:11 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/jative/GNS3/images/QEMU/vESR.qcow2
+2025-07-29 21:11:11 INFO qemu_vm.py:1975 logging to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/qemu/4c7e6dd6-1a86-4e68-85d4-01e580e330e6/qemu-img.log
+2025-07-29 21:11:11 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img create -o backing_file=/home/jative/GNS3/images/QEMU/vESR.qcow2 -F qcow2 -f qcow2 /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/qemu/4c7e6dd6-1a86-4e68-85d4-01e580e330e6/hda_disk.qcow2
+2025-07-29 21:11:11 INFO base_node.py:942 Qemu: 'vESR-1' [4c7e6dd6-1a86-4e68-85d4-01e580e330e6]:local UDP tunnel created between port 10002 and 10003
+2025-07-29 21:11:11 INFO base_node.py:942 Qemu: 'vESR-1' [4c7e6dd6-1a86-4e68-85d4-01e580e330e6]:local UDP tunnel created between port 10004 and 10005
+2025-07-29 21:11:11 INFO base_node.py:942 Qemu: 'vESR-1' [4c7e6dd6-1a86-4e68-85d4-01e580e330e6]:local UDP tunnel created between port 10006 and 10007
+2025-07-29 21:11:11 INFO base_node.py:942 Qemu: 'vESR-1' [4c7e6dd6-1a86-4e68-85d4-01e580e330e6]:local UDP tunnel created between port 10008 and 10009
+2025-07-29 21:11:11 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name vESR-1 -m 2048M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/qemu/4c7e6dd6-1a86-4e68-85d4-01e580e330e6/hda_disk.qcow2,if=ide,index=0,media=disk,id=drive0 -uuid 4c7e6dd6-1a86-4e68-85d4-01e580e330e6 -serial telnet:127.0.0.1:5001,server,nowait -monitor tcp:127.0.0.1:40441,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device e1000,mac=0c:7e:6d:d6:00:00,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10003,localaddr=127.0.0.1:10002 -device e1000,mac=0c:7e:6d:d6:00:01,bus=pci-bridge1,addr=0x01,netdev=gns3-1 -netdev socket,id=gns3-1,udp=127.0.0.1:10005,localaddr=127.0.0.1:10004 -device e1000,mac=0c:7e:6d:d6:00:02,bus=pci-bridge1,addr=0x02,netdev=gns3-2 -netdev socket,id=gns3-2,udp=127.0.0.1:10007,localaddr=127.0.0.1:10006 -device e1000,mac=0c:7e:6d:d6:00:03,bus=pci-bridge1,addr=0x03,netdev=gns3-3 -netdev socket,id=gns3-3,udp=127.0.0.1:10009,localaddr=127.0.0.1:10008 -display none
+2025-07-29 21:11:11 INFO qemu_vm.py:1177 logging to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/qemu/4c7e6dd6-1a86-4e68-85d4-01e580e330e6/qemu.log
+2025-07-29 21:11:11 INFO qemu_vm.py:1184 QEMU VM "vESR-1" started PID=981029
+2025-07-29 21:11:11 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:40315
+2025-07-29 21:11:11 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:40315']
+2025-07-29 21:11:11 INFO hypervisor.py:165 logging to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/qemu/4c7e6dd6-1a86-4e68-85d4-01e580e330e6/ubridge.log
+2025-07-29 21:11:11 INFO hypervisor.py:171 ubridge started PID=981031
+2025-07-29 21:11:11 INFO base_node.py:788 Hypervisor 0.0.0.0:40315 has successfully started
+2025-07-29 21:11:11 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:44277 after 0.1015 seconds
+2025-07-29 21:11:11 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:40315 after 0.1015 seconds
+2025-07-29 21:11:11 INFO iou_vm.py:861 IOU IOU1 [id=7fd9aeb8-c916-44ac-977d-e2dfe028bc8f]: NETMAP file created
+2025-07-29 21:11:11 INFO iou_vm.py:617 Starting IOU: ['/home/jative/GNS3/images/IOU/x86_64_crb_linux-adventerprisek9-ms.iol', '1']
+2025-07-29 21:11:11 INFO iou_vm.py:627 IOU instance 7fd9aeb8-c916-44ac-977d-e2dfe028bc8f started PID=981041
+2025-07-29 21:11:11 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:40441 after 0.0115 seconds
+2025-07-29 21:11:11 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-1 off
+2025-07-29 21:11:11 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-2 off
+2025-07-29 21:11:11 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-3 off
+2025-07-29 21:11:11 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5001, external port = 5000)
+2025-07-29 21:11:15 INFO iou_vm.py:1403 saving startup-config to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/iou/7fd9aeb8-c916-44ac-977d-e2dfe028bc8f/startup-config.cfg
+2025-07-29 21:11:19 INFO iou_vm.py:1403 saving startup-config to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/iou/7fd9aeb8-c916-44ac-977d-e2dfe028bc8f/startup-config.cfg
+2025-07-29 21:11:45 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:11:45 INFO qemu_vm.py:313 QEMU VM "vESR-1" [4c7e6dd6-1a86-4e68-85d4-01e580e330e6] has set the QEMU hda_disk_image path to /home/jative/GNS3/images/QEMU/vESR.qcow2
+2025-07-29 21:12:48 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:12:49 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:12:51 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 21:12:52 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 22:05:52 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-29 22:05:52 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:40315
+2025-07-29 22:05:52 INFO hypervisor.py:200 Stopping uBridge process PID=981031
+2025-07-29 22:05:52 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:44277
+2025-07-29 22:05:52 INFO hypervisor.py:200 Stopping uBridge process PID=981014
+2025-07-29 22:05:53 INFO iou_vm.py:802 Stopping IOU process for IOU VM "IOU1" PID=981041
+2025-07-29 22:05:53 INFO iou_vm.py:802 Stopping IOU process for IOU VM "IOU1" PID=981041
+2025-07-29 22:05:53 INFO iou_vm.py:1403 saving startup-config to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/iou/7fd9aeb8-c916-44ac-977d-e2dfe028bc8f/startup-config.cfg
+2025-07-29 22:05:53 INFO qemu_vm.py:1273 Stopping QEMU VM "vESR-1" PID=981029
+2025-07-29 22:05:53 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-07-29 22:05:54 INFO server.py:264 connection closed
+2025-07-29 22:05:54 INFO server.py:264 connection closed
+2025-07-29 22:05:56 INFO controller.py:221 Client 127.0.0.1:48566 has disconnected from controller WebSocket
+2025-07-29 22:05:58 INFO projects.py:304 Client has disconnected from notification stream for project ID '22a2dafa-b2a1-4169-a188-fdf33ec03447' (WebSocket method)
+2025-07-29 22:06:03 INFO projects.py:313 Project '22a2dafa-b2a1-4169-a188-fdf33ec03447' is automatically closing due to no client listening
+2025-07-29 22:06:03 INFO iou_vm.py:1403 saving startup-config to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/iou/7fd9aeb8-c916-44ac-977d-e2dfe028bc8f/startup-config.cfg
+2025-07-29 22:06:03 INFO base_node.py:370 IOU: 'IOU1' [7fd9aeb8-c916-44ac-977d-e2dfe028bc8f]: is closing
+2025-07-29 22:06:03 INFO iou_vm.py:1403 saving startup-config to /home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/project-files/iou/7fd9aeb8-c916-44ac-977d-e2dfe028bc8f/startup-config.cfg
+2025-07-29 22:06:03 INFO base_node.py:370 Qemu: 'vESR-1' [4c7e6dd6-1a86-4e68-85d4-01e580e330e6]: is closing
+2025-07-29 22:06:03 INFO project.py:352 Project 22a2dafa-b2a1-4169-a188-fdf33ec03447 with path '/home/jative/GNS3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447' closed
+2025-07-29 22:06:05 INFO server.py:263 Shutting down
+2025-07-29 22:06:05 INFO compute.py:479 Connection closed to compute 'local' WebSocket 'http://127.0.0.1:3080/v3/compute/notifications/ws'
+2025-07-29 22:06:05 INFO server.py:264 connection closed
+2025-07-29 22:06:05 INFO server.py:305 Waiting for background tasks to complete. (CTRL+C to force quit)
+2025-07-29 22:06:06 INFO tasks.py:238 Stopping monitoring for new images in '/home/jative/GNS3/images'
+2025-07-29 22:06:08 INFO notifications.py:50 Client 127.0.0.1:48540 has disconnected from compute WebSocket
+2025-07-29 22:06:08 INFO on.py:67 Waiting for application shutdown.
+2025-07-29 22:06:08 INFO __init__.py:181 Controller is stopping
+2025-07-29 22:06:08 INFO __init__.py:231 iourc file '/home/jative/.config/GNS3/3.0/iou_license' saved
+2025-07-29 22:06:08 INFO tasks.py:106 Disconnected from database
+2025-07-29 22:06:08 INFO on.py:76 Application shutdown complete.
+2025-07-29 22:06:08 INFO server.py:93 Finished server process [973229]
+2025-07-29 22:06:08 INFO server.py:329 Remove PID file /home/jative/.config/GNS3/3.0/gns3_server.pid
