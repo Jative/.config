@@ -1,11 +1,11 @@
-2025-07-29 21:07:42 INFO logger.py:126 Log level: INFO
-2025-07-29 21:07:42 INFO main.py:270 GNS3 GUI version 3.0.5
-2025-07-29 21:07:42 INFO main.py:271 Copyright (c) 2007-2025 GNS3 Technologies Inc.
-2025-07-29 21:07:42 INFO main.py:272 Application started with /usr/bin/gns3
-2025-07-29 21:07:45 INFO http_client.py:561 Authenticated with controller localhost on port 3080 
-2025-07-29 21:07:48 INFO controller.py:456 Listening for controller notifications on ws://localhost:3080/v3/notifications/ws
-2025-07-29 21:07:48 INFO project.py:666 Listening for project notifications on ws://localhost:3080/v3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/notifications/ws
-2025-07-29 21:07:50 WARNING __init__.py:1162 This node must be started before a console can be opened
-2025-07-29 21:10:14 WARNING __init__.py:225 You have unsaved preferences in User.
-
-Continue without saving?
+2025-08-07 16:10:14 INFO logger.py:126 Log level: INFO
+2025-08-07 16:10:14 INFO main.py:270 GNS3 GUI version 3.0.5
+2025-08-07 16:10:14 INFO main.py:271 Copyright (c) 2007-2025 GNS3 Technologies Inc.
+2025-08-07 16:10:14 INFO main.py:272 Application started with /usr/bin/gns3
+2025-08-07 16:10:18 INFO http_client.py:561 Authenticated with controller localhost on port 3080 
+2025-08-07 16:10:23 INFO controller.py:456 Listening for controller notifications on ws://localhost:3080/v3/notifications/ws
+2025-08-07 16:10:23 INFO project.py:666 Listening for project notifications on ws://localhost:3080/v3/projects/22a2dafa-b2a1-4169-a188-fdf33ec03447/notifications/ws
+2025-08-07 17:30:55 WARNING __init__.py:98 Delete the selected images?
+This cannot be reverted.
+2025-08-07 17:30:56 WARNING __init__.py:98 Delete the selected images?
+This cannot be reverted.

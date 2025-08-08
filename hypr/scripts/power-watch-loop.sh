@@ -4,6 +4,8 @@ last_power=""
 last_tlp=""
 
 while true; do
+  sleep 5
+
   power_state=$(< /sys/class/power_supply/AC/online)
   if [[ "$power_state" != "$last_power" ]]; then
     ~/.config/hypr/scripts/notify-power.sh "$power_state"
@@ -15,6 +17,4 @@ while true; do
     ~/.config/hypr/scripts/power-toggle.sh
     last_tlp="$tlp_mode"
   fi
-
-  sleep 5
 done
